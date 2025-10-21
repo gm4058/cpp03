@@ -15,7 +15,9 @@ int main(void)
     FragTrap c(b);
     FragTrap d;
     d = b;
-
+    b.attack("enemy1");
+    d.attack("enemy2");
+    
     std::cout << "\n--- Destruction order check ---" << std::endl;
     return 0;
 }

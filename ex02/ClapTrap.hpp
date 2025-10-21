@@ -7,7 +7,7 @@
 class ClapTrap
 {
 protected:
-    const std::string name;
+    std::string name;
     int hitPoint;
     int energyPoint;
     int attackDamage;
